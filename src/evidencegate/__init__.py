@@ -1,0 +1,1 @@
+"""EvidenceGate retrieval evaluation benchmark."""
