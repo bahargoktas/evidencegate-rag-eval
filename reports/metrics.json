@@ -1,0 +1,32 @@
+{
+  "configuration": {
+    "seed": 20261103,
+    "products": 60,
+    "k": 5,
+    "documents": 120,
+    "questions": 120,
+    "data_source": "synthetic generated"
+  },
+  "methods": {
+    "bm25": {
+      "metrics": {
+        "recall_at_k": 1,
+        "mrr_at_k": 1,
+        "answer_exact_match": 1,
+        "citation_accuracy": 1,
+        "unanswerable_abstention_rate": 1,
+        "unsupported_answer_rate": 0
+      }
+    },
+    "tfidf": {
+      "metrics": {
+        "recall_at_k": 1,
+        "mrr_at_k": 1,
+        "answer_exact_match": 1,
+        "citation_accuracy": 1,
+        "unanswerable_abstention_rate": 1,
+        "unsupported_answer_rate": 0
+      }
+    }
+  }
+}
